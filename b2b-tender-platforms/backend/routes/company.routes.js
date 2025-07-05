@@ -28,8 +28,6 @@ router.get('/', companyController.getAllCompanies);
 // Get a specific company by ID — must be last to avoid route conflict
 router.get('/:id', companyController.getCompanyById);
 
-// GET /api/company/search?query=keyword
-router.get('/search', companyController.searchCompanies);
 
 
 module.exports = router;
